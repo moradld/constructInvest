@@ -1,0 +1,82 @@
+.main-menu {
+    margin-top: 50px;
+}
+
+/* login register */
+.auth-hero {
+    background-color: var(--bs-dark);
+}
+.auth-hero__bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.auth-input-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth-input-icon svg {
+    width: 18px;
+    height: 18px;
+    display: block;
+}
+.auth-input-icon i {
+    font-size: 1.1rem;
+    line-height: 1;
+    display: block;
+}
+.auth-field-icon-left {
+    left: 1rem;
+}
+.auth-field-icon-right {
+    right: 1rem;
+}
+.auth-control {
+    padding-left: 3rem;
+    padding-right: 1rem;
+}
+.auth-control--toggle {
+    padding-right: 3rem;
+}
+
+/* Stop Bootstrap validation background icons (the red ! inside inputs) */
+.auth-page .form-control.is-invalid,
+.auth-page .form-control.is-valid,
+.auth-page .was-validated .form-control:invalid,
+.auth-page .was-validated .form-control:valid {
+    background-image: none !important;
+}
+/* Normalize padding in validation states (Bootstrap increases padding-right) */
+.auth-page .form-control.is-invalid,
+.auth-page .form-control.is-valid,
+.auth-page .was-validated .form-control:invalid,
+.auth-page .was-validated .form-control:valid {
+    padding-right: 1rem !important;
+}
+.auth-page .auth-control--toggle.is-invalid,
+.auth-page .auth-control--toggle.is-valid,
+.auth-page .was-validated .auth-control--toggle:invalid,
+.auth-page .was-validated .auth-control--toggle:valid {
+    padding-right: 3rem !important;
+}
+.auth-label {
+    font-size: 0.75rem;
+}
+.auth-social-btn {
+    background-color: var(--bs-gray-100);
+}
+.auth-toggle-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+    display: inline-flex;
+}
+.form-check-input:checked {
+    background-color: var(--bs-success);
+    border-color: var(--bs-success);
+}
